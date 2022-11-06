@@ -21,8 +21,8 @@ li {
 }
 #logo {
     width: 115px;
-    height: fit-content;
-    margin: auto;
+    /* height: fit-content;
+    margin: auto; */
 }
 #btn-order-now {
     padding: 5px;
