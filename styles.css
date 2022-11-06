@@ -83,6 +83,7 @@ li {
 }
 #video {
     margin: 1rem;
+    display: inline-block;
 }
 /* Container 3 */
 .pricing {
@@ -123,4 +124,7 @@ li {
 }
 .lancement {
     color: rgb(234, 219, 60);
+}
+#container-video {
+    text-align: center;
 }
