@@ -1,0 +1,124 @@
+                                /** Navbar **/
+
+#container-text-anim {
+    display: none;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    padding: 10px;
+    list-style-type: none;
+}
+#logo {
+    width: 115px;
+    height: fit-content;
+    margin: auto;
+}
+#btn-order-now {
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #209fcf;
+    color: white;
+}
+
+#container-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/img/famille-de-dos-regardant-la-tl1.jpeg);
+    background-size: cover;
+    color: #ffffff;
+}
+
+
+                        /* Container 1 onepage */
+.container {
+    display: inline-block;
+    position: relative;
+}
+.card {
+    background-color: #000000;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 1em;
+    text-align: center;
+    margin-bottom: 1rem;
+    width: 90%;
+  }
+.movies {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/img/movies.jpeg");
+}
+.shows {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/img/shows.jpeg");
+}
+.anime {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/img/backgroung\ jap.jpg");
+}
+.doc {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/img/doc.jpeg");
+} 
+.bold {
+    font-weight: bold;
+}
+
+/* Container 2 */
+#container2 {
+    background-color:#209fcf ;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+#video {
+    margin: 1rem;
+}
+/* Container 3 */
+.pricing {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #21a2d2;
+    margin: 1rem auto;
+    color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 5px 5px 5px #dfd8ff;
+}
+.pricing ul {
+    display: flex;
+    flex-direction: column;
+}
+.order {
+    text-decoration: none;
+    color: #2891be;
+    background-color: white;
+    padding: 0.3rem;
+    margin-top: 1rem;
+    border-radius: 30px;
+}
+#title-container3 h2 {
+    text-align: center;
+}
+.price {
+    font-size: 24px;
+    font-weight: bold;
+}
+.promo {
+    text-decoration: line-through;
+}
+.small {
+    font-size: 12px;
+}
+.lancement {
+    color: rgb(234, 219, 60);
+}
